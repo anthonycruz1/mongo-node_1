@@ -20,6 +20,11 @@ input {
   padding: 0.1rem 0.5rem;
 }
 
+.wrongInput {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
 #passwordInput {
   margin-top: 1.5rem;
 }
@@ -34,8 +39,7 @@ input {
   border: 0;
   border-radius: 5px;
   box-shadow: 1px 1px 1px 1px lightgray;
-  transition: all;
-  transition-duration: 175ms;
+  transition: background-color 175ms;
 }
 
 .button:hover {

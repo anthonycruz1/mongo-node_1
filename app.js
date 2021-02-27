@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 
-// form.addEventListener('submit', (event) => {
-//   event.preventDefault();
-//   console.log('submission detected
-// });
+form.addEventListener('input', (event) => {
+  event.preventDefault();
+  console.log(event.target.value);
+  // include regex to detect any special characters
+});
